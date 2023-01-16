@@ -1,0 +1,14 @@
+<h1>Edite o Produto:</h1>
+
+<form action="/products/updatebook" method="post" enctype="multipart/form-data">
+<input type="hidden" name="id" value="{{{product.id}}}">
+<div>
+    <input type="text" name="title" value="{{{product.title}}}">
+    <input type="number" name="price" value="{{{product.price}}}">
+    <input type="file" name="file1" value="{{{product.file1}}}">
+    <input type="file" name="file2" value="{{{product.file3}}}">
+    <input type="file" name="file3" value="{{{product.file3}}}">
+    <input type="submit" value="Cadastrar">
+
+</div>
+</form>

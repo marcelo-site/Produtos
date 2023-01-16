@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+.form {
+    width: 450px;
+    flex-direction: column;
+}
+.foto {
+    width: 30%;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+ul li {
+    margin: 10px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.form-control input {
+    margin-bottom: 1em;
+}
